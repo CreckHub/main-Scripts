@@ -31,7 +31,7 @@ shears.Handle.Prompt.Triggered:Connect(function()
     
     Tool.Equipped:Connect(function()
         local Idle = Tool.Animations.Idle
-        local IdleTrack = Humanoid:LoadAnimation(Use)
+        local IdleTrack = Humanoid:LoadAnimation(Idle)
         
         IdleTrack:Play()
     end)
